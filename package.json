@@ -1,0 +1,20 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/volodymyrihnatyev/task.git"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-connect": "*"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/volodymyrihnatyev/task/issues"
+  },
+  "homepage": "https://github.com/volodymyrihnatyev/task"
+}

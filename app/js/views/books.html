@@ -1,0 +1,11 @@
+<div ng-controller="booksCtrl">
+	         <center>
+        <h2> Book list: <h2>
+        </center>
+	<ul class="book list-group" ng-repeat="book in books">
+		<li class="name list-group-item" ng-click="showBook(book)">Book name: {{book.name}}</li>
+		<li class="list-group-item autor" ng-click="showAuthor(book)">Author: {{book.author.fio}}</li>
+	</ul>
+	<br>
+
+</div>

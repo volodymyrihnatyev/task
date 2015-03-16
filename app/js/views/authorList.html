@@ -1,0 +1,12 @@
+ <div ng-controller="authorListCtrl">
+	<ul class="author list-group" ng-repeat="book in unique">
+		<li class="list-group-item autor" ng-click="showMenu(book)">Author: {{book.author.fio}}
+          <ul ng-show="click==book.author.ida">
+
+             <li ng-click="showBook(abook)" ng-repeat="abook in books|filter:book.author.fio">
+             	{{abook.name}}
+             </li>
+          <ul>
+      </li>
+      </ul>
+      </div>

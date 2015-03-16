@@ -1,0 +1,15 @@
+<div ng-controller="bookCtrl">
+	
+	<div class="book-item">
+		<p class="name">{{book.name}}</p>
+		<br>
+		<p class="author" ng-click="showAuthor(book)">{{book.author.fio}}</p>
+		<br>
+		<p class="descr">{{book.descr}}</p>
+		<br>
+		<p class="janr" ng-click="showJanr(book)">{{book.janr}}</p>
+		<br>
+	</div>
+
+
+</div>

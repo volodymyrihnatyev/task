@@ -1,0 +1,14 @@
+<div ng-controller="authorCtrl">
+	<div class="book-item">
+		<p class="name">{{book.author.fio}}</p>
+		<br>
+		<p class="author">{{book.author.bio}}</p>
+		<br>
+		<br>
+				<ul ng-repeat="books in writenBooks">
+							<li ng-click="showBook(book)">{{books.name}}</li>
+				</ul>
+	</div>
+
+
+</div>
